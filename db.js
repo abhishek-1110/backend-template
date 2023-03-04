@@ -1,5 +1,7 @@
 import { connect } from "mongoose";
 
+// you have to add your own username and password in places of admin
+
 const MongoURI = `mongodb+srv://admin:admin@cluster0.ve1y6o5.mongodb.net/?retryWrites=true&w=majority`;
 
 const connectTOMongo = () => {
