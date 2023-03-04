@@ -8,7 +8,6 @@ connectTOMongo();
 const app = express();
 const port = 5000;
 
-// DefaultData();
 app.listen(port, () => {
   console.log("Successfully running on", port)
 });
